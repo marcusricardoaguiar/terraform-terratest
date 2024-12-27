@@ -1,6 +1,6 @@
 provider "google" {
-  credentials = file("path/to/your/credentials.json")
-  project     = "your-project-id"
+  credentials = file("./terraform-opa-4e64c656583b.json")
+  project     = var.project_id
   region      = "us-central1"
 }
 
